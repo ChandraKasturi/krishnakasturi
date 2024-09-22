@@ -24,7 +24,7 @@ pg = st.navigation(
     {
         
         "Info1":[about_page],
-        "Projects1":[skill_dashboard_page,chat_page]
+        "Projects1":[chat_page]
         
         }
         
