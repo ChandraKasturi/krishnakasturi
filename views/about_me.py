@@ -16,6 +16,16 @@ with col2:
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
+
+st.subheader("The journey so far", anchor=False)
+st.write(
+    """
+    In my journey of over 20 years of experience in the tech and business world, I specialize in turning complex challenges into growth opportunities. My expertise spans AI, banking, and insurance, where I’ve led high-impact projects that not only meet but exceed expectations. From integrating AI solutions to streamlining operations to ensuring compliance for banking systems, I thrive at the intersection of technology and business strategy. My leadership style combines innovation with practical execution, all while keeping teams motivated and clients satisfied. I’m passionate about delivering success through collaboration, cutting-edge technology, and a clear vision for the future.
+   
+    """
+)
+
+
 st.subheader("Key Achievements", anchor=False)
 st.write(
     """
