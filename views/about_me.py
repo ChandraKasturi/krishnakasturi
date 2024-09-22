@@ -38,14 +38,4 @@ st.write(
     """
 )
 
-# --- SKILLS ---
-st.write("\n")
-st.subheader("Hard Skills", anchor=False)
-st.write(
-    """
-    - Programming: Python (Scikit-learn, Pandas), SQL, VBA
-    - Data Visualization: PowerBi, MS Excel, Plotly
-    - Modeling: Logistic regression, linear regression, decision trees
-    - Databases: Postgres, MongoDB, MySQL
-    """
-)
+
