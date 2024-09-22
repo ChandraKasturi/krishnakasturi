@@ -1,10 +1,14 @@
 import streamlit as st
 from groq import Groq
+import os
+
 
 st.title("Chat with Llama 3.1")
 
 # Initialize the Groq client with API key
-client = Groq(api_key=st.secrets["API_KEY"])
+
+my_var = os.getenv('API_KEY')
+client = Groq(api_key=my_var)
 
 # Set the default model if it's not in session state
 if "openai_model" not in st.session_state:
