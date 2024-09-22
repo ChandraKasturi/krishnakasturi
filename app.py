@@ -1,15 +1,5 @@
 import streamlit as st
 
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
-
-print(st.__version__)
 # ---Page Set up---
 about_page = st.Page(
 page="views/about_me.py",
@@ -44,5 +34,13 @@ st.logo("assets/krishna_logo.png")
 sentence = "Made with ❤️ Krishna"
 st.sidebar.text(sentence)
 
-
 pg.run()
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
