@@ -16,7 +16,7 @@ icon=":material/smart_toy:"
 
 skill_dashboard_page = st.Page(
 page="views/skill_dashboard.py",
-title="Skill Dashboard",
+title="NCLT EOI",
 icon=":material/bar_chart:"
 )
 
@@ -24,7 +24,7 @@ pg = st.navigation(
     {
         
         "Info1":[about_page],
-        "Projects1":[chat_page]
+        "Projects1":[chat_page,skill_dashboard_page]
         
         }
         
