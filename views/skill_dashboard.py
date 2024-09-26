@@ -6,6 +6,9 @@ import json
 
 ##st.title("IP Module Agent")
 
+my_var = os.getenv('OPEN_AI_KEY')
+##client = Groq(api_key=my_var)
+client = OpenAI(api_key=my_var)
 # Predefined list of NCLT bench locations
 BENCH_LOCATIONS = ['Delhi', 'Mumbai', 'Chennai', 'Kolkata', 'Hyderabad', 'Bengaluru', 'Ahmedabad', 'Chandigarh', 'Jaipur', 'Guwahati']
 def parse_user_input(user_input):
