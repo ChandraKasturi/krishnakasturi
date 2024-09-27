@@ -23,8 +23,8 @@ icon=":material/bar_chart:"
 pg = st.navigation(
     {
         
-        "Info1":[about_page],
-        "Projects1":[chat_page]
+        "Info":[about_page],
+        "Projects":[chat_page]
         
         }
         
