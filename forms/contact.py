@@ -44,7 +44,7 @@ def contact_form():
             st.stop()
 
         # Prepare the data payload and send it to the specified webhook URL
-        data = {"email": email, "Name": name, "message": message}
+        data = {"email": email, "name": name, "message": message}
         response = requests.post(WEBHOOK_URL, json=data)
 
         if response.status_code == 200:
