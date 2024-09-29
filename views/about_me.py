@@ -13,7 +13,7 @@ with col1:
 with col2:
     st.title("Sri Krishna Kasturi", anchor=False)
     st.write(
-        "Product / Delivery Manager and AI Evangilist."
+        "Product / Delivery Manager and Gen AI Consultant"
     )
     if st.button("✉️ Contact Me"):
         show_contact_form()
